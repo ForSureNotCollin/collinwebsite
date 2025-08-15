@@ -1,17 +1,15 @@
-import classes from './Header.css';
-
-const { coolHeader } = classes;
+import'./Header.css';
 
 const Header = ({}) => {
 
     return (
         <>
-            <h1 className={coolHeader}>It is Collin Time!!!</h1>
+            <h1 className='coolHeader'>It is Collin Time!!!</h1>
             <sub>Support by Wesley :)</sub>
         </>
 
     )
-}
+};
 
 export default Header;
 
