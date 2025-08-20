@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar";
-import Videography from "./pages/Videography/Videography";
-import Coding from "./pages/Coding/Coding";
-import Dashboard from "./pages/Dashboard/Dashboard";
+import Videography from "./pages/Videography/Videography.jsx";
+import Coding from "./pages/Coding/Coding.jsx";
+import Dashboard from "./pages/Dashboard/Dashboard.jsx";
 
 function App() {
   return (
