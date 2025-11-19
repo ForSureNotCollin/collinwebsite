@@ -1,0 +1,43 @@
+.wheels-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wheel {
+  position: relative;
+  width: 120px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.progress-circle {
+  transition: stroke-dashoffset 1.2s ease;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.bg-circle {
+  opacity: 0.3;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+.wheel-label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.wheel-value {
+  display: block;
+  font-size: 18px;
+  color: #4C9AFF;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.progress-circle { 
+    transition : stroke-dashoffset 0.1s linear ; 
+}

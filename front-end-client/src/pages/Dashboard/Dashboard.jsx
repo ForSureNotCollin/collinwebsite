@@ -1,21 +1,26 @@
 // src/pages/Dashboard/Dashboard.jsx
 import React from "react";
 import './Dashboard.css'; // optional, for styling
+import ProgressWheels from "./ProgressWheels";
+import './ProgressWheels.css' ;
+
+
+const stats = [
+  { label: "React", value: 85 },
+  { label: "JavaScript", value: 90 },
+  { label: "Backend", value: 70 },
+  { label: "UI/UX", value: 60 },
+];
+
+<section className="dashboard-content">
+  <h2>Skill Overview</h2>
+  <ProgressWheels stats={stats} />
+</section>
 
 export default function Dashboard() {
   return (
+    
     <div className="dashboard-container">
-      {/* Sidebar */}
-      <aside className="sidebar">
-        <h2>Menu</h2>
-        <ul>
-          <li>Home</li>
-          <li>Coding</li>
-          <li>Projects</li>
-          <li>Contact</li>
-        </ul>
-      </aside>
-
       {/* Main Content */}
       <main className="dashboard-main">
         {/* About Me Section */}
@@ -32,6 +37,7 @@ export default function Dashboard() {
         <section className="dashboard-content">
           <h2>Dashboard Overview</h2>
           <p>Here you can display stats, project summaries, or recent activity.</p>
+          <ProgressWheels stats = {stats} />
         </section>
       </main>
     </div>
