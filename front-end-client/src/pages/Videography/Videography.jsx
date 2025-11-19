@@ -34,14 +34,21 @@ export default function Videography() {
       {/* Video Carousel */}
       <section className="video-carousel">
         <button className="carousel-btn" onClick={prevVideo}>◀</button>
+
         <video
           key={currentIndex}
           src={videos[currentIndex]}
           controls
+          muted
+          autoPlay
+          preload = "auto"
           className="carousel-video"
-        />
+          onEnded={nextVideo}   // Auto-scroll after the video ends
+        />  
+
         <button className="carousel-btn" onClick={nextVideo}>▶</button>
       </section>
+
 
       {/* Google Calendar Booking Section */}
       <section className="booking-calendar">

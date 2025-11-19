@@ -1,0 +1,50 @@
+/* Page container */
+.videography-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Page title */
+.videography-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Video carousel layout */
+.video-carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Buttons */
+.carousel-btn {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+/* 🔥 Standardize video sizing */
+.carousel-video {
+  width: 800px;       /* Set a max width */
+  max-width: 100%;    /* Keeps it responsive */
+  height: 450px;      /* Standard 16:9 height */
+  object-fit: cover;  /* Ensures video fills the frame */
+  border-radius: 10px;
+}
+
+/* Booking section */
+.booking-calendar {
+  margin-top: 4rem;
+  width: 100%;
+  max-width: 900px;
+}
+
+.booking-calendar iframe {
+  border-radius: 10px;
+  width: 100%;
+}

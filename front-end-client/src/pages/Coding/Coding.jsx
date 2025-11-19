@@ -19,8 +19,8 @@ export default function Coding() {
         </div>
         <pre className="code-content">
 {`// Example Code
-function helloWorld() {
-  console.log("Hello, world!");
+function greeting() {
+  console.log("Hello, I'm Collin! Welcome!");
 }`}
         </pre>
       </section>

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import "./Header.css";
+import Sidebar from "./components/Sidebar.jsx" ; 
 
 // --- Videography Component ---
 const Videography = () => {

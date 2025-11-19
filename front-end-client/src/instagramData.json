@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "caption": "Sunset vibes 🌅",
+      "media_url": "/images/post1.jpg",
+      "permalink": "https://instagram.com/p/fake1",
+      "media_type": "IMAGE"
+    },
+    {
+      "id": "2",
+      "caption": "Morning coffee ☕",
+      "media_url": "/images/post2.jpg",
+      "permalink": "https://instagram.com/p/fake2",
+      "media_type": "IMAGE"
+    },
+    {
+      "id": "3",
+      "caption": "Beach day 🏖️",
+      "media_url": "/images/post3.jpg",
+      "permalink": "https://instagram.com/p/fake3",
+      "media_type": "IMAGE"
+    }
+  ]
+}
