@@ -17,6 +17,9 @@
   flex-direction: column;
   align-items: center;
 }
-.progress-circle { 
-    transition : stroke-dashoffset 0.1s linear ; 
+
+.about-me { 
+  display: flex ; 
+  flex-direction : column ; 
+  align-items : center ; 
 }

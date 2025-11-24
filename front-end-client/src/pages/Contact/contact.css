@@ -1,0 +1,13 @@
+.contactPage { 
+    display : flex ; 
+    flex-direction : column ; 
+    align-items : center ; 
+    padding : 2rem ; 
+}
+
+.contactHeader { 
+    display : flex ; 
+    flex-direction : column ;
+    align-items : center ; 
+    color : black ;
+}
