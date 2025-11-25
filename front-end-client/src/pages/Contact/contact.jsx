@@ -53,6 +53,7 @@ export default function Contact() {
 
         <label className = "FormField-Message">
           <textarea
+            type = "message"
             name="message"
             placeholder="Leave your message here..."
             value={formData.message}

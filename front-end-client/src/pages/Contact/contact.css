@@ -21,3 +21,22 @@
 .formField-name { 
         background-color : white ; 
     }
+    /* Style all form inputs */
+.contactForm input,
+.contactForm textarea {
+  background: #fff;              /* White background */
+  color: #000;                   /* Text color */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+/* Optional: nicer textarea */
+.contactForm textarea {
+  min-height: 120px;
+  resize: vertical;
+}
