@@ -7,37 +7,32 @@
 
 .wheel {
   position: relative;
-  width: 120px;
-  text-align: center;
-  font-family: sans-serif;
-}
-
-.progress-circle {
-  transition: stroke-dashoffset 1.2s ease;
-  transform: rotate(-90deg);
-  transform-origin: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bg-circle {
-  opacity: 0.3;
   transform: rotate(-90deg);
   transform-origin: 50% 50%;
 }
 
-.wheel-label {
-  display: block;
-  margin-top: 10px;
-  font-weight: 600;
+.progress-circle {
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+  transition: stroke-dashoffset 0.1s linear;
 }
 
-.wheel-value {
-  display: block;
-  font-size: 18px;
-  color: #4C9AFF;
-  margin-top: 5px;
+.wheel-label {
+  margin-top: 0.5rem;
   font-weight: bold;
 }
 
-.progress-circle { 
-    transition : stroke-dashoffset 0.1s linear ; 
+.wheel-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.2rem;
 }
