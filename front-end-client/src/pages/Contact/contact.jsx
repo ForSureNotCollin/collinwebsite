@@ -63,12 +63,12 @@ export default function Contact() {
     <main className="contactPage">
       <header className="contactHeader">
         <h1 className="typewriter">
-          {displayedMain}
+          {mainHeaderText.slice(0 , mainIndex)}
           <span className="cursor">|</span>
         </h1>
         {displayedMain.length === mainHeaderText.length && (
           <h2 className="typewriter">
-            {displayedSub}
+            {subHeaderText.slice(0 , subIndex)}
             <span className="cursor">|</span>
           </h2>
         )}

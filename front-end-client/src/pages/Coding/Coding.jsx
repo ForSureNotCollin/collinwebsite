@@ -18,7 +18,7 @@ export default function Coding() {
           <span className="dot green"></span>
         </div>
         <pre className="code-content">
-{`// Example Code
+{`// Example Code 
 function greeting() {
   console.log("Hello, I'm Collin! Welcome!");
 }`}

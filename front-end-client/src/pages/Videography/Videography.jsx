@@ -54,7 +54,7 @@ export default function Videography() {
       <section className="booking-calendar">
         <h2>Book a Session</h2>
         <iframe
-          src="https://calendar.google.com/calendar/embed?src=your_calendar_id_here&ctz=America%2FNew_York"
+          src="https://book.squareup.com/appointments/uue7g8p4vc8uve/location/LYWW961VHNB0E/services"
           style={{ border: 0 }}
           width="100%"
           height="600"
